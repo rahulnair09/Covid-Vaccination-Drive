@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width,intial-scale-1.6>
+	<meta http-equiv="content-security-policy|content-type|default-style|refresh">
+	<title> COWIN VACCINE PROCEESS|LetsFightCorono.com</title>
+	</head>
+	<body>
+	</body>
+	</html>

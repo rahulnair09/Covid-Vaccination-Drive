@@ -1,0 +1,185 @@
+:root
+{
+
+}
+#navbar
+{
+display:flex;
+position=relative;
+height:10px;
+font-family:'Baloo Bhai',cursive;
+
+
+}
+#Title
+{	display:block;
+	width:200px;
+	height:50pxpx;
+	margin:15px 5px;
+	
+}
+#Title h3
+	
+{	width:200px;
+	display:block;
+	height:50px;
+	display:block;
+	height:50px;
+	margin:4px 1px
+}
+
+#navbar ul
+{
+	display:flex;
+
+}
+#navbar ul li
+{
+	display:flex;
+	list-style:none;
+	
+}
+ #navbar ul li a
+{
+	background-color=white;
+	color:white;
+
+	list-style:none;
+	font-size:1.3rem;
+	display:block;
+	padding:3px 22px;
+	border-radius:20px;
+	text-decoration:none;
+}
+#navbar::before
+{
+	content:"";
+	
+	position:absolute;
+	height:10%;
+	background-color:black;
+	width:100%;
+	z-index:-1;
+	opacity:0.4;
+}
+ #navbar ul li a:hover
+{
+	color:black;
+	height:30px;
+	background-color:white;
+}
+
+#home
+{
+	display:flex;;
+	align-items:center;
+	justify-items:center;
+	
+	flex-direction:column;
+	height:400px;
+	z-index:-1;
+	background :url('s.jpg') no-repeat center center/cover;
+	border:red;
+	margin-top:55px;
+	font-size:20px;
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	
+	font-size:12
+	
+}
+
+#home::before
+{
+	content:"";
+
+	position:absolute;
+	height:100%;
+
+	width:100%;
+	
+	z-index:-1;
+	opacity:0.55;
+	font-size:80px;
+}
+.h-secondary
+{
+font-family:'Bree Serif',serif;
+}
+#home p
+{
+
+	
+}
+.btn
+{
+	border-radius:10px;
+	cursor:pointer
+	
+}
+.center
+{
+text-align:center;
+}
+#services
+{
+	margin:34px;
+	display:flex;
+	height:250px;
+	
+	font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+#services.box
+{
+	border:2px solid brown;
+	
+	height:160px;
+	margin:auto;
+	display:block;
+	padding:200px;
+	font-family:'Bree Serif',serif;
+	
+}
+#services.box img
+{
+	
+	height:160px;
+	margin:auto;
+	display:block;
+	margin:4px 4px;
+	
+}
+
+.hello
+{
+	display:block;
+	height:150px;
+	margin:auto;
+}
+
+	
+	
+	.last
+{
+	display:flex;
+	align-items:center;
+	justify-items:center;
+	min-height:100%;
+	min-width:100%;
+	flex-direction:column;
+	height:200px;
+	z-index:-1;
+	background :url('sssss.jpg') no-repeat center center/cover;
+	border:red;
+	margin-top:55px;
+	font-size:20px;
+	color:white;
+	font-family:'Akaya Telivigala',serif;
+}
+
+.b1
+{
+	padding:55px;
+	color:black;
+}

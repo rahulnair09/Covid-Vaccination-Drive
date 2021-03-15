@@ -1,0 +1,76 @@
+:root
+{
+--navbar-height:59px;
+}
+#navbar
+{
+display:flex;
+position=relative;
+height:300px;
+}
+#Title
+{	display:block;
+	width:200px;
+	height:100px;
+	margin:15px 5px;
+	
+}
+#Title h3
+	
+{	width:200px;
+	display:block;
+	height:50px;
+	display:block;
+	height:50px;
+	margin:4px 1px
+}
+
+#navbar ul
+{
+	display:flex;
+
+}
+#navbar ul li
+{
+	display:flex;
+	list-style:none;
+	
+}
+ #navbar ul li a
+{
+	background-color=white;
+	color:white;
+
+	list-style:none;
+	font-size:1.3rem;
+	display:block;
+	padding:3px 22px;
+	border-radius:20px;
+	text-decoration:none;
+}
+#navbar::before
+{
+	content:"";
+	
+	position:absolute;
+	height:10%;
+	background-color:black;
+	width:100%;
+	z-index:-1;
+	opacity:0.4;
+}
+ #navbar ul li a:hover
+{
+	color:black;
+	height:30px;
+	background-color:white;
+}
+
+#home
+{
+	display:flex;
+	height:500px;
+	
+}
+
+
